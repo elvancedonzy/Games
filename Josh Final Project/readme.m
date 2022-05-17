@@ -5,4 +5,3 @@ https://pypi.org/project/qrcode/
 OR
 
 pip install qrcode
-
