@@ -1,4 +1,5 @@
 #Importing the relevant modules
+import time
 import qrcode
 from random import randint
 
@@ -21,3 +22,5 @@ img =qrcode.make(password)
 img.save("password.jpg")
 
 
+# Sleep for 10 seconds
+time.sleep(10)

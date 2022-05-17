@@ -1,3 +1,6 @@
+#Importing the relevant modules
+import time
+
 print("Welcome to my the Game!!!")
 name = input("What is your name: ")
 age = int(input ("What is your age: "))
@@ -67,3 +70,6 @@ if age >=18:
               print("Thanks for coming")
 else:
     print ("you are not old enough to play!")
+
+#Sleep for 10 seconds
+time.sleep(10)
