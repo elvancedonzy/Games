@@ -1,5 +1,4 @@
 import time
-
 #Create a sum count
 sum=0
 #Ask user for input
