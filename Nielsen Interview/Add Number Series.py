@@ -1,3 +1,5 @@
+import time
+
 #Create a sum count
 sum=0
 #Ask user for input
@@ -12,3 +14,6 @@ for x in range (0,y+1):
       sum=sum+x
 #Prints out sum
 print("Sum of number", sum)
+
+#Sleep for 10 seconds
+time.sleep(10)
